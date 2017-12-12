@@ -1,0 +1,381 @@
+2017-12-12 11:47:02  [ main:0 ] - [ ERROR ]  23423423423423432423
+2017-12-12 11:58:33  [ main:0 ] - [ ERROR ]  23423423423423432423
+2017-12-12 11:58:54  [ main:0 ] - [ ERROR ]  23423423423423432423
+2017-12-12 12:45:51  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-12-12 12:45:51  [ main:9 ] - [ DEBUG ]  Auth cache not set in the context
+2017-12-12 12:45:51  [ main:10 ] - [ DEBUG ]  Connection request: [route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-12-12 12:45:51  [ main:19 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:45:51  [ main:20 ] - [ DEBUG ]  Opening connection {}->http://www.hzgoo.cn:80
+2017-12-12 12:45:51  [ main:41 ] - [ DEBUG ]  Connecting to www.hzgoo.cn/106.14.196.16:80
+2017-12-12 12:45:51  [ main:65 ] - [ DEBUG ]  Connection established 192.168.1.151:54814<->106.14.196.16:80
+2017-12-12 12:45:51  [ main:66 ] - [ DEBUG ]  http-outgoing-0: set socket timeout to 20000
+2017-12-12 12:45:51  [ main:66 ] - [ DEBUG ]  Executing request POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:45:51  [ main:66 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-12-12 12:45:51  [ main:67 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-12-12 12:45:51  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:45:51  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+2017-12-12 12:45:51  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> X-Requested-With: XMLHttpRequest
+2017-12-12 12:45:51  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 48
+2017-12-12 12:45:51  [ main:68 ] - [ DEBUG ]  http-outgoing-0 >> Host: www.hzgoo.cn
+2017-12-12 12:45:51  [ main:69 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2017-12-12 12:45:51  [ main:69 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+2017-12-12 12:45:51  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-12-12 12:45:51  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> "POST /index.php/Seller/Login/checkLogin HTTP/1.1[\r][\n]"
+2017-12-12 12:45:51  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded;charset=UTF-8[\r][\n]"
+2017-12-12 12:45:51  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> "X-Requested-With: XMLHttpRequest[\r][\n]"
+2017-12-12 12:45:51  [ main:70 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2017-12-12 12:45:51  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "Host: www.hzgoo.cn[\r][\n]"
+2017-12-12 12:45:51  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-12-12 12:45:51  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)[\r][\n]"
+2017-12-12 12:45:51  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-12-12 12:45:51  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-12-12 12:45:51  [ main:71 ] - [ DEBUG ]  http-outgoing-0 >> "password=test123456&verify=&username=15862637184"
+2017-12-12 12:45:51  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-12-12 12:45:51  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx/1.4.4[\r][\n]"
+2017-12-12 12:45:51  [ main:105 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 12 Dec 2017 04:45:51 GMT[\r][\n]"
+2017-12-12 12:45:51  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-12-12 12:45:51  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-12-12 12:45:51  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-12-12 12:45:51  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: PHPSESSID=sj1v55crocn4c9luelm68h66a3; path=/[\r][\n]"
+2017-12-12 12:45:51  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2017-12-12 12:45:51  [ main:106 ] - [ DEBUG ]  http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+2017-12-12 12:45:51  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2017-12-12 12:45:51  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:45:51  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "58[\r][\n]"
+2017-12-12 12:45:51  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "{"info":"\u767b\u5f55\u6210\u529f\uff01","status":1,"url":"\/Seller\/Index\/index.html"}[\r][\n]"
+2017-12-12 12:45:51  [ main:107 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2017-12-12 12:45:51  [ main:108 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:45:51  [ main:109 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx/1.4.4
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 12 Dec 2017 04:45:51 GMT
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: PHPSESSID=sj1v55crocn4c9luelm68h66a3; path=/
+2017-12-12 12:45:51  [ main:110 ] - [ DEBUG ]  http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2017-12-12 12:45:51  [ main:111 ] - [ DEBUG ]  http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+2017-12-12 12:45:51  [ main:111 ] - [ DEBUG ]  http-outgoing-0 << Pragma: no-cache
+2017-12-12 12:45:51  [ main:115 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-12-12 12:45:51  [ main:119 ] - [ DEBUG ]  Cookie accepted [PHPSESSID="sj1v55crocn4c9luelm68h66a3", version:0, domain:www.hzgoo.cn, path:/, expiry:null]
+2017-12-12 12:45:51  [ main:120 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://www.hzgoo.cn:80] can be kept alive indefinitely
+2017-12-12 12:45:51  [ main:120 ] - [ DEBUG ]  http-outgoing-0: set socket timeout to 0
+2017-12-12 12:45:51  [ main:120 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:45:51  [ main:120 ] - [ DEBUG ]  Cancelling request execution
+2017-12-12 12:45:51  [ main:121 ] - [ DEBUG ]  Connection manager is shutting down
+2017-12-12 12:45:51  [ main:121 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-12-12 12:45:51  [ main:121 ] - [ DEBUG ]  Connection manager shut down
+2017-12-12 12:47:44  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-12-12 12:47:44  [ main:6 ] - [ DEBUG ]  Auth cache not set in the context
+2017-12-12 12:47:44  [ main:7 ] - [ DEBUG ]  Connection request: [route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-12-12 12:47:44  [ main:15 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:47:44  [ main:16 ] - [ DEBUG ]  Opening connection {}->http://www.hzgoo.cn:80
+2017-12-12 12:47:44  [ main:22 ] - [ DEBUG ]  Connecting to www.hzgoo.cn/106.14.196.16:80
+2017-12-12 12:47:44  [ main:45 ] - [ DEBUG ]  Connection established 192.168.1.151:55155<->106.14.196.16:80
+2017-12-12 12:47:44  [ main:45 ] - [ DEBUG ]  http-outgoing-0: set socket timeout to 20000
+2017-12-12 12:47:44  [ main:45 ] - [ DEBUG ]  Executing request POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:47:44  [ main:45 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-12-12 12:47:44  [ main:45 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> X-Requested-With: XMLHttpRequest
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 48
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> Host: www.hzgoo.cn
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2017-12-12 12:47:44  [ main:46 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "POST /index.php/Seller/Login/checkLogin HTTP/1.1[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded;charset=UTF-8[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "X-Requested-With: XMLHttpRequest[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "Host: www.hzgoo.cn[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-12-12 12:47:44  [ main:47 ] - [ DEBUG ]  http-outgoing-0 >> "password=test123456&verify=&username=15862637184"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx/1.4.4[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 12 Dec 2017 04:47:44 GMT[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: PHPSESSID=vqjasi3t1v9flee4a04p45kn95; path=/[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:47:44  [ main:81 ] - [ DEBUG ]  http-outgoing-0 << "58[\r][\n]"
+2017-12-12 12:47:44  [ main:82 ] - [ DEBUG ]  http-outgoing-0 << "{"info":"\u767b\u5f55\u6210\u529f\uff01","status":1,"url":"\/Seller\/Index\/index.html"}[\r][\n]"
+2017-12-12 12:47:44  [ main:82 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2017-12-12 12:47:44  [ main:82 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx/1.4.4
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 12 Dec 2017 04:47:44 GMT
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: PHPSESSID=vqjasi3t1v9flee4a04p45kn95; path=/
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+2017-12-12 12:47:44  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Pragma: no-cache
+2017-12-12 12:47:44  [ main:88 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-12-12 12:47:44  [ main:91 ] - [ DEBUG ]  Cookie accepted [PHPSESSID="vqjasi3t1v9flee4a04p45kn95", version:0, domain:www.hzgoo.cn, path:/, expiry:null]
+2017-12-12 12:47:44  [ main:92 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://www.hzgoo.cn:80] can be kept alive indefinitely
+2017-12-12 12:47:44  [ main:92 ] - [ DEBUG ]  http-outgoing-0: set socket timeout to 0
+2017-12-12 12:47:44  [ main:92 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:47:44  [ main:92 ] - [ DEBUG ]  Cancelling request execution
+2017-12-12 12:47:44  [ main:92 ] - [ DEBUG ]  Connection manager is shutting down
+2017-12-12 12:47:44  [ main:92 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-12-12 12:47:44  [ main:93 ] - [ DEBUG ]  Connection manager shut down
+2017-12-12 12:51:23 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-12-12 12:51:23 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-12-12 12:51:23 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-12-12 12:51:23 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:51:23 DEBUG MainClientExec:235 - Opening connection {}->http://www.hzgoo.cn:80
+2017-12-12 12:51:23 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to www.hzgoo.cn/106.14.196.16:80
+2017-12-12 12:51:23 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.151:55777<->106.14.196.16:80
+2017-12-12 12:51:23 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 20000
+2017-12-12 12:51:23 DEBUG MainClientExec:256 - Executing request POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:51:23 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-12-12 12:51:23 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-12-12 12:51:23 DEBUG headers:133 - http-outgoing-0 >> POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> X-Requested-With: XMLHttpRequest
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 48
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> Host: www.hzgoo.cn
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+2017-12-12 12:51:23 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "POST /index.php/Seller/Login/checkLogin HTTP/1.1[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded;charset=UTF-8[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "X-Requested-With: XMLHttpRequest[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "Host: www.hzgoo.cn[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:87 - http-outgoing-0 >> "password=test123456&verify=&username=15862637184"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.4.4[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Date: Tue, 12 Dec 2017 04:51:23 GMT[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Set-Cookie: PHPSESSID=iccqqlq059v7a1crph3m649sc3; path=/[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "58[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "{"info":"\u767b\u5f55\u6210\u529f\uff01","status":1,"url":"\/Seller\/Index\/index.html"}[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2017-12-12 12:51:23 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:51:23 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.4.4
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Date: Tue, 12 Dec 2017 04:51:23 GMT
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Set-Cookie: PHPSESSID=iccqqlq059v7a1crph3m649sc3; path=/
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+2017-12-12 12:51:23 DEBUG headers:125 - http-outgoing-0 << Pragma: no-cache
+2017-12-12 12:51:23 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2017-12-12 12:51:23 DEBUG ResponseProcessCookies:119 - Cookie accepted [PHPSESSID="iccqqlq059v7a1crph3m649sc3", version:0, domain:www.hzgoo.cn, path:/, expiry:null]
+2017-12-12 12:51:23 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {}->http://www.hzgoo.cn:80] can be kept alive indefinitely
+2017-12-12 12:51:23 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2017-12-12 12:51:23 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:51:23 DEBUG MainClientExec:145 - Cancelling request execution
+2017-12-12 12:51:23 DEBUG PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2017-12-12 12:51:23 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-12-12 12:51:23 DEBUG PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2017-12-12 12:52:11 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-12-12 12:52:11 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-12-12 12:52:11 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-12-12 12:52:11 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:52:11 DEBUG MainClientExec:235 - Opening connection {}->http://www.hzgoo.cn:80
+2017-12-12 12:52:11 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to www.hzgoo.cn/106.14.196.16:80
+2017-12-12 12:52:11 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.151:55909<->106.14.196.16:80
+2017-12-12 12:52:11 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 20000
+2017-12-12 12:52:11 DEBUG MainClientExec:256 - Executing request POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:52:11 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-12-12 12:52:11 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-12-12 12:52:11 DEBUG headers:133 - http-outgoing-0 >> POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> X-Requested-With: XMLHttpRequest
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 48
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> Host: www.hzgoo.cn
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+2017-12-12 12:52:11 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "POST /index.php/Seller/Login/checkLogin HTTP/1.1[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded;charset=UTF-8[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "X-Requested-With: XMLHttpRequest[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "Host: www.hzgoo.cn[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:87 - http-outgoing-0 >> "password=test123456&verify=&username=15862637184"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.4.4[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Date: Tue, 12 Dec 2017 04:52:11 GMT[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Set-Cookie: PHPSESSID=obpbsic2qkfcf242t81mnofo55; path=/[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "58[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "{"info":"\u767b\u5f55\u6210\u529f\uff01","status":1,"url":"\/Seller\/Index\/index.html"}[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2017-12-12 12:52:11 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:52:11 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.4.4
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Date: Tue, 12 Dec 2017 04:52:11 GMT
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Set-Cookie: PHPSESSID=obpbsic2qkfcf242t81mnofo55; path=/
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+2017-12-12 12:52:11 DEBUG headers:125 - http-outgoing-0 << Pragma: no-cache
+2017-12-12 12:52:11 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2017-12-12 12:52:11 DEBUG ResponseProcessCookies:119 - Cookie accepted [PHPSESSID="obpbsic2qkfcf242t81mnofo55", version:0, domain:www.hzgoo.cn, path:/, expiry:null]
+2017-12-12 12:52:11 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {}->http://www.hzgoo.cn:80] can be kept alive indefinitely
+2017-12-12 12:52:11 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2017-12-12 12:52:11 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:52:11 DEBUG MainClientExec:145 - Cancelling request execution
+2017-12-12 12:52:11 DEBUG PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2017-12-12 12:52:11 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-12-12 12:52:11 DEBUG PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2017-12-12 12:53:18 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-12-12 12:53:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-12-12 12:53:18 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-12-12 12:53:18 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:53:18 DEBUG MainClientExec:235 - Opening connection {}->http://www.hzgoo.cn:80
+2017-12-12 12:53:18 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to www.hzgoo.cn/106.14.196.16:80
+2017-12-12 12:53:18 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.151:56102<->106.14.196.16:80
+2017-12-12 12:53:18 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 20000
+2017-12-12 12:53:18 DEBUG MainClientExec:256 - Executing request POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:53:18 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-12-12 12:53:18 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-12-12 12:53:18 DEBUG headers:133 - http-outgoing-0 >> POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> X-Requested-With: XMLHttpRequest
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 48
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> Host: www.hzgoo.cn
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+2017-12-12 12:53:18 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "POST /index.php/Seller/Login/checkLogin HTTP/1.1[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded;charset=UTF-8[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "X-Requested-With: XMLHttpRequest[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "Host: www.hzgoo.cn[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:87 - http-outgoing-0 >> "password=test123456&verify=&username=15862637184"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.4.4[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Date: Tue, 12 Dec 2017 04:53:18 GMT[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Set-Cookie: PHPSESSID=aavnvjrefkdjmrtrq6ifg3hl23; path=/[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "58[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "{"info":"\u767b\u5f55\u6210\u529f\uff01","status":1,"url":"\/Seller\/Index\/index.html"}[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2017-12-12 12:53:18 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:53:18 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.4.4
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Date: Tue, 12 Dec 2017 04:53:18 GMT
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Set-Cookie: PHPSESSID=aavnvjrefkdjmrtrq6ifg3hl23; path=/
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+2017-12-12 12:53:18 DEBUG headers:125 - http-outgoing-0 << Pragma: no-cache
+2017-12-12 12:53:18 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2017-12-12 12:53:18 DEBUG ResponseProcessCookies:119 - Cookie accepted [PHPSESSID="aavnvjrefkdjmrtrq6ifg3hl23", version:0, domain:www.hzgoo.cn, path:/, expiry:null]
+2017-12-12 12:53:18 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {}->http://www.hzgoo.cn:80] can be kept alive indefinitely
+2017-12-12 12:53:18 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2017-12-12 12:53:18 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:53:18 DEBUG MainClientExec:145 - Cancelling request execution
+2017-12-12 12:53:18 DEBUG PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2017-12-12 12:53:18 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-12-12 12:53:18 DEBUG PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2017-12-12 12:53:34 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-12-12 12:53:34 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-12-12 12:53:34 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-12-12 12:53:34 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:53:34 DEBUG MainClientExec:235 - Opening connection {}->http://www.hzgoo.cn:80
+2017-12-12 12:53:34 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to www.hzgoo.cn/106.14.196.16:80
+2017-12-12 12:53:34 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.151:56148<->106.14.196.16:80
+2017-12-12 12:53:34 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 20000
+2017-12-12 12:53:34 DEBUG MainClientExec:256 - Executing request POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:53:34 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-12-12 12:53:34 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-12-12 12:53:34 DEBUG headers:133 - http-outgoing-0 >> POST /index.php/Seller/Login/checkLogin HTTP/1.1
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded;charset=UTF-8
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> X-Requested-With: XMLHttpRequest
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 48
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> Host: www.hzgoo.cn
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)
+2017-12-12 12:53:34 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "POST /index.php/Seller/Login/checkLogin HTTP/1.1[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded;charset=UTF-8[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "X-Requested-With: XMLHttpRequest[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "Host: www.hzgoo.cn[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.4 (Java/1.8.0_151)[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:87 - http-outgoing-0 >> "password=test123456&verify=&username=15862637184"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Server: nginx/1.4.4[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Date: Tue, 12 Dec 2017 04:53:34 GMT[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Set-Cookie: PHPSESSID=6af2pg7ard0emhcjgk4tc193b1; path=/[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Expires: Thu, 19 Nov 1981 08:52:00 GMT[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "Pragma: no-cache[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "58[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "{"info":"\u767b\u5f55\u6210\u529f\uff01","status":1,"url":"\/Seller\/Index\/index.html"}[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2017-12-12 12:53:34 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-12-12 12:53:34 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Server: nginx/1.4.4
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Date: Tue, 12 Dec 2017 04:53:34 GMT
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Set-Cookie: PHPSESSID=6af2pg7ard0emhcjgk4tc193b1; path=/
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Expires: Thu, 19 Nov 1981 08:52:00 GMT
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+2017-12-12 12:53:34 DEBUG headers:125 - http-outgoing-0 << Pragma: no-cache
+2017-12-12 12:53:35 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2017-12-12 12:53:35 DEBUG ResponseProcessCookies:119 - Cookie accepted [PHPSESSID="6af2pg7ard0emhcjgk4tc193b1", version:0, domain:www.hzgoo.cn, path:/, expiry:null]
+2017-12-12 12:53:35 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {}->http://www.hzgoo.cn:80] can be kept alive indefinitely
+2017-12-12 12:53:35 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2017-12-12 12:53:35 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {}->http://www.hzgoo.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-12-12 12:53:35 DEBUG MainClientExec:145 - Cancelling request execution
+2017-12-12 12:53:35 DEBUG PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2017-12-12 12:53:35 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-12-12 12:53:35 DEBUG PoolingHttpClientConnectionManager:414 - Connection manager shut down

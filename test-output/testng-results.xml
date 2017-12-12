@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="422" started-at="2017-12-12T04:53:34Z" finished-at="2017-12-12T04:53:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="422" started-at="2017-12-12T04:53:34Z" finished-at="2017-12-12T04:53:35Z">
+      <class name="cn.lu.LUAutoSpace.Test1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:cn.lu.LUAutoSpace.Test1@2a2d45ba]" name="beforeClass" is-config="true" duration-ms="7" started-at="2017-12-12T12:53:34Z" finished-at="2017-12-12T12:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:cn.lu.LUAutoSpace.Test1@2a2d45ba]" name="f" duration-ms="402" started-at="2017-12-12T12:53:34Z" finished-at="2017-12-12T12:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:cn.lu.LUAutoSpace.Test1@2a2d45ba]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-12T12:53:35Z" finished-at="2017-12-12T12:53:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- cn.lu.LUAutoSpace.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -10,8 +10,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import org.apache.log4j.Logger;
+
 
 public class jdbcUtil {
+	private static Logger logger = Logger.getLogger(jdbcUtil.class);
 	//数据库用户名  
     private static final String USERNAME = "testhost";  
     //数据库密码  
@@ -26,12 +29,12 @@ public class jdbcUtil {
     
     public jdbcUtil() {  
         // TODO Auto-generated constructor stub  
-        try{  
+/*        try{  
             Class.forName(DRIVER);  
             System.out.println("成功加载驱动！");  
         }catch(Exception e){  
         	e.printStackTrace();  
-        }  
+        }  */
         try {  
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);  
             System.out.println("成功获取连接");
@@ -156,14 +159,26 @@ public class jdbcUtil {
     }  
     
 	public static void main(String[] args) {
+		logger.error("23423423423423432423");
 		jdbcUtil jdbcUtil = new jdbcUtil();
 		String sql = "SELECT * FROM business where province_id = ?";
 		List<Object> parames = new ArrayList<Object>();
 		parames.add("227");
-		//Map<String, Object> result = jdbcUtil.findSimpleResult(sql,parames);
-		List<Map<String, Object>> result = jdbcUtil.findModeResult(sql,parames);
-		System.out.println("result:" + result);
-
+/*		Map<String, Object> result = jdbcUtil.findSimpleResult(sql,parames);
+		System.out.println("result:" + result);*/
+/*		List<Map<String, Object>> result = jdbcUtil.findModeResult(sql,parames);
+		Iterator<Map<String, Object>> iterator = result.iterator();
+		while (iterator.hasNext()) {
+			System.out.println("result:" + iterator.next().get("name"));
+			Iterator<Entry<String, Object>> entries =iterator.next().entrySet().iterator();  
+			while (entries.hasNext()) {
+				Entry<String, Object>  entry =entries.next();  
+				System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+			}
+		}
+		*/	
+		
+		
 	}
 
 }
