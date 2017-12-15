@@ -6,15 +6,18 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+
 import org.apache.log4j.Logger;
 
 
-public class jdbcUtil {
-	private static Logger logger = Logger.getLogger(jdbcUtil.class);
+public class JdbcUtil {
+	private static Logger logger = Logger.getLogger(JdbcUtil.class);
 	//数据库用户名  
     private static final String USERNAME = "testhost";  
     //数据库密码  
@@ -27,7 +30,7 @@ public class jdbcUtil {
     private PreparedStatement pstmt;  
     private ResultSet resultSet;  
     
-    public jdbcUtil() {  
+    public JdbcUtil() {  
         // TODO Auto-generated constructor stub  
 /*        try{  
             Class.forName(DRIVER);  
@@ -58,6 +61,22 @@ public class jdbcUtil {
         }  
     } 
     
+    /**
+     * @param sql
+     * @return 返回值为false时，执行的是更新语句或DDL语句. 返回值为true时，表示执行的是查询语句
+     */
+    public boolean executeResult(String sql) {
+    	boolean flag = false;
+		try {
+			Statement stat = connection.createStatement();
+			flag = stat.execute(sql);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	return flag;
+    }
+    
     /** 
      * 增加、删除、改 
      * @param sql 
@@ -81,6 +100,7 @@ public class jdbcUtil {
 			e.printStackTrace();
 		}  
         flag = result > 0 ? true : false;  
+        logger.info(sql + "参数：" + params + "执行结果：" +flag);
         return flag;  
     }
     
@@ -160,7 +180,7 @@ public class jdbcUtil {
     
 	public static void main(String[] args) {
 		logger.error("23423423423423432423");
-		jdbcUtil jdbcUtil = new jdbcUtil();
+		JdbcUtil jdbcUtil = new JdbcUtil();
 		String sql = "SELECT * FROM business where province_id = ?";
 		List<Object> parames = new ArrayList<Object>();
 		parames.add("227");
@@ -177,6 +197,23 @@ public class jdbcUtil {
 			}
 		}
 		*/	
+/*		List<Object> parames2 = new ArrayList<>();
+		parames2.add("5265");
+		String sql2 = "DELETE FROM member_reward where mid=?;";
+		Boolean result = jdbcUtil.updateByPreparedStatement(sql2,parames2);
+		logger.info("执行："+result);*/
+/*		boolean results = jdbcUtil.executeResult("select * FROM member_reward where mid=5265;");
+		logger.info("executeResult: " + results);*/
+		String sql1 = "SELECT id FROM member WHERE identity=2 AND `status`=2 AND mobilephone=?";
+		List<Object> parames1 = new ArrayList<Object>();
+		parames1.add("13182857756");
+		Map<String, Object> result = jdbcUtil.findSimpleResult(sql1,parames1);
+		for (Entry<String, Object> entry : result.entrySet()) {
+			System.out.println("result:" + entry.getValue());
+		}
+		System.out.println("result:" + result.get("id"));
+		
+		
 		
 		
 	}

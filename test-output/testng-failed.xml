@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="cn.lu.LUAutoSpace.Test1">
+      <class name="com.lu.LUAutoSpace.huizhitong.AddUser">
         <methods>
-          <include name="f"/>
-          <include name="beforeClass"/>
+          <include name="addVolunteer"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- cn.lu.LUAutoSpace.Test1 -->
+      </class> <!-- com.lu.LUAutoSpace.huizhitong.AddUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

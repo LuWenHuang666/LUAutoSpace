@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.CookieStore;
@@ -21,7 +22,9 @@ import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.protocol.HTTP;
 import org.apache.http.util.EntityUtils;
+import org.apache.log4j.Logger;
 
 import com.zf.zson.ZSON;
 import com.zf.zson.result.ZsonResult;
@@ -29,10 +32,33 @@ import com.zf.zson.result.ZsonResult;
 public class HttpClientUtil {
 	
 	private final HttpClientContext context = new HttpClientContext() ;  //初始化上下文实例
+	private CloseableHttpClient httpClient = null;  //
+	private RequestConfig requestConfig = null;
 	
 	public HttpClientUtil() {
+		// 自动保存cookies
         CookieStore cookieStore = new BasicCookieStore() ;
         context.setCookieStore(cookieStore);
+        // 创建连接
+        httpClient = HttpClients.createDefault();
+        requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).build();
+        //requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).setProxy(new HttpHost("127.0.0.1", 8888)).build();
+        
+	}
+	
+	//使用代理 
+	public void setProxy(String host, int post) {
+		requestConfig = RequestConfig.copy(requestConfig).setProxy(new HttpHost(host, post)).build();
+	}
+	
+	public void closeHttpClient() {
+        try {
+            if(httpClient!=null){
+                httpClient.close();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 	}
 	
 	public void get(String url){
@@ -133,12 +159,12 @@ public class HttpClientUtil {
     }
     
     public String doGet(String url){
-        CloseableHttpClient httpClient = null;
+        //CloseableHttpClient httpClient = null;
         HttpGet httpGet = null;
         String responseString = null;
         try {
-            httpClient = HttpClients.createDefault();
-            RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).build();
+            //httpClient = HttpClients.createDefault();
+            //RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).build();
             httpGet = new HttpGet(url);
             httpGet.setConfig(requestConfig);
             httpGet.setHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
@@ -146,63 +172,57 @@ public class HttpClientUtil {
             CloseableHttpResponse response = httpClient.execute(httpGet,context);
             HttpEntity httpEntity = response.getEntity();
             responseString = EntityUtils.toString(httpEntity,"utf-8");
-            System.out.println("response"+responseString);
-            
         } catch (ClientProtocolException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }finally{
-            try {
-                if(httpGet!=null){
-                    httpGet.releaseConnection();
-                }
-                if(httpClient!=null){
-                    httpClient.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            if(httpGet!=null){
+			    httpGet.releaseConnection();
+			}
+			/*if(httpClient!=null){
+			    httpClient.close();
+			}*/
         }
+        //System.out.println("请求url： " + url);
+        //System.out.println("responseString： " + responseString);
         return responseString;
         
     }
     public String doPost(String url, Map<String, String> params){
-        CloseableHttpClient httpClient = null;
+        //CloseableHttpClient httpClient = null;
         HttpPost httpPost = null;
         String responseString = null;
         try {
-            httpClient = HttpClients.createDefault();
-            RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).build();
+            //httpClient = HttpClients.createDefault();
+            //RequestConfig requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).build();
             httpPost = new HttpPost(url);
             httpPost.setConfig(requestConfig);
             httpPost.setHeader("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
             httpPost.setHeader("X-Requested-With", "XMLHttpRequest");
+            httpPost.setHeader("Accept-Language", "zh-CN,zh;q=0.9");
             List<NameValuePair> ps = new ArrayList<NameValuePair>();
             for (String pKey : params.keySet()) {
                 ps.add(new BasicNameValuePair(pKey, params.get(pKey)));
             }
-            httpPost.setEntity(new UrlEncodedFormEntity(ps));
+            httpPost.setEntity(new UrlEncodedFormEntity(ps,HTTP.UTF_8));
             CloseableHttpResponse response = httpClient.execute(httpPost,context);
             HttpEntity httpEntity = response.getEntity();
             responseString =  EntityUtils.toString(httpEntity,"UTF-8");
-            System.out.println("response:"+responseString);
         } catch (ClientProtocolException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }finally{
-            try {
-                if(httpPost!=null){
-                    httpPost.releaseConnection();
-                }
-                if(httpClient!=null){
-                    httpClient.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            if(httpPost!=null){
+			    httpPost.releaseConnection();
+			}
+			/*if(httpClient!=null){
+			    httpClient.close();
+			}*/
         }
+        //System.out.println("请求url： " + url);
+        //System.out.println("responseString： " + responseString);
         return responseString;
     }
 
@@ -217,7 +237,8 @@ public class HttpClientUtil {
 		params.put("verify", "");
 		String responseString = httpClientUtil.doPost(URL, params);
 		ZsonResult result = ZSON.parseJson(responseString);
-		System.out.println(result);
+		System.out.println("responseString= "+responseString);
+		System.out.println("result= "+result);
 		System.out.println(result.getValue("//info"));
 		String URL1 = "http://www.hzgoo.cn/index.php/Seller/Index/index";
 		//httpClientUtil.doGet(URL1);
