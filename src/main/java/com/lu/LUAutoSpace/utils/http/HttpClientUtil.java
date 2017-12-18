@@ -1,6 +1,7 @@
 package com.lu.LUAutoSpace.utils.http;
 
 import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -209,6 +210,9 @@ public class HttpClientUtil {
             CloseableHttpResponse response = httpClient.execute(httpPost,context);
             HttpEntity httpEntity = response.getEntity();
             responseString =  EntityUtils.toString(httpEntity,"UTF-8");
+        } catch (UnknownHostException e) {
+        	System.out.println("Host连接异常，请检查网络 和接口 host：");
+            e.printStackTrace();
         } catch (ClientProtocolException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1974" started-at="2017-12-15T08:24:58Z" finished-at="2017-12-15T08:25:00Z">
+  <suite name="Default suite" duration-ms="1238" started-at="2017-12-18T09:56:20Z" finished-at="2017-12-18T09:56:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1974" started-at="2017-12-15T08:24:58Z" finished-at="2017-12-15T08:25:00Z">
-      <class name="com.lu.LUAutoSpace.huizhitong.AddUser">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.AddUser@6adede5]" name="beforeClass" is-config="true" duration-ms="451" started-at="2017-12-15T16:24:58Z" finished-at="2017-12-15T16:24:59Z">
+    <test name="Default test" duration-ms="1238" started-at="2017-12-18T09:56:20Z" finished-at="2017-12-18T09:56:21Z">
+      <class name="com.lu.LUAutoSpace.huizhitong.TestMoney">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="beforeClass" is-config="true" duration-ms="780" started-at="2017-12-18T17:56:20Z" finished-at="2017-12-18T17:56:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="addVolunteerTestDB()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.AddUser@6adede5]" name="addVolunteerTestDB" duration-ms="631" started-at="2017-12-15T16:24:59Z" finished-at="2017-12-15T16:25:00Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="test" duration-ms="439" started-at="2017-12-18T17:56:20Z" finished-at="2017-12-18T17:56:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addVolunteerTestDB -->
-        <test-method status="PASS" signature="addVolunteerTestDB2()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.AddUser@6adede5]" name="addVolunteerTestDB2" duration-ms="874" started-at="2017-12-15T16:25:00Z" finished-at="2017-12-15T16:25:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addVolunteerTestDB2 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.AddUser@6adede5]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-12-15T16:25:00Z" finished-at="2017-12-15T16:25:00Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-18T17:56:21Z" finished-at="2017-12-18T17:56:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.lu.LUAutoSpace.huizhitong.AddUser -->
+      </class> <!-- com.lu.LUAutoSpace.huizhitong.TestMoney -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

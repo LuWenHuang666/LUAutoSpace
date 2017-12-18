@@ -4179,3 +4179,80 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 2017-12-15 11:06:32 INFO  AddUser:61 - teest12321
 2017-12-15 16:24:59 INFO  AddUser:31 - 新增志愿者--被帮扶人测试账号
 2017-12-15 16:25:00 INFO  AddUser:62 - teest12321
+2017-12-18 15:48:56 INFO  TestMoney:30 - 登录成功！
+2017-12-18 15:53:19 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:12:01 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:12:01 INFO  TestMoney:41 - {"msg":"\u521b\u5efa\u8ba2\u5355\u6210\u529f","status":1,"data":{"ordernum":"20171218041201783249","order_id":"89623"}}
+2017-12-18 16:12:33 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:12:33 INFO  TestMoney:41 - 创建订单成功
+2017-12-18 16:14:39 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:14:39 INFO  TestMoney:41 - 创建订单成功
+2017-12-18 16:24:34 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:24:34 INFO  TestMoney:38 - api提交订单
+2017-12-18 16:24:34 INFO  TestMoney:42 - 创建订单成功
+2017-12-18 16:24:34 INFO  TestMoney:44 - order_id: 89626
+2017-12-18 16:24:34 INFO  TestMoney:47 - 帮扶支付
+2017-12-18 16:28:25 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:28:25 INFO  TestMoney:38 - api提交订单
+2017-12-18 16:28:25 INFO  TestMoney:42 - 创建订单成功
+2017-12-18 16:28:25 INFO  TestMoney:44 - order_id: 89627
+2017-12-18 16:28:25 INFO  TestMoney:47 - 帮扶支付
+2017-12-18 16:28:25 INFO  TestMoney:52 - {"info":"\u6682\u65e0\u5fd7\u613f\u8005","status":0,"url":""}
+2017-12-18 16:30:36 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:30:36 INFO  TestMoney:38 - api提交订单
+2017-12-18 16:30:37 INFO  TestMoney:42 - 创建订单成功
+2017-12-18 16:30:37 INFO  TestMoney:44 - order_id: 89628
+2017-12-18 16:30:37 INFO  TestMoney:47 - 帮扶支付
+2017-12-18 16:30:37 INFO  TestMoney:52 - {"info":"\u6682\u65e0\u5fd7\u613f\u8005","status":0,"url":""}
+2017-12-18 16:30:37 INFO  TestMoney:53 - 暂无志愿者
+2017-12-18 16:39:59 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:39:59 INFO  TestMoney:38 - api提交订单
+2017-12-18 16:39:59 INFO  TestMoney:42 - 创建订单成功
+2017-12-18 16:39:59 INFO  TestMoney:44 - order_id: 89630
+2017-12-18 16:39:59 INFO  TestMoney:47 - 帮扶支付
+2017-12-18 16:39:59 INFO  TestMoney:52 - {"info":"\u6682\u65e0\u5fd7\u613f\u8005","status":0,"url":""}
+2017-12-18 16:39:59 INFO  TestMoney:53 - 暂无志愿者
+2017-12-18 16:42:28 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:42:28 INFO  TestMoney:38 - api提交订单
+2017-12-18 16:42:28 INFO  TestMoney:42 - 创建订单成功
+2017-12-18 16:42:28 INFO  TestMoney:44 - order_id: 89631
+2017-12-18 16:42:28 INFO  TestMoney:47 - 帮扶支付
+2017-12-18 16:53:53 INFO  TestMoney:28 - 登录成功！
+2017-12-18 16:53:53 INFO  TestMoney:38 - api提交订单
+2017-12-18 16:53:53 INFO  TestMoney:42 - 创建订单成功
+2017-12-18 16:53:53 INFO  TestMoney:44 - order_id: 89633
+2017-12-18 16:53:53 INFO  TestMoney:47 - 帮扶支付
+2017-12-18 16:53:53 INFO  TestMoney:52 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-18 16:53:53 INFO  TestMoney:53 - 提交成功等待排队
+2017-12-18 17:21:55 INFO  TestMoney:30 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:23:16 INFO  TestMoney:27 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:26:06 INFO  TestMoney:30 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:28:43 INFO  TestMoney:30 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:31:56 INFO  TestMoney:30 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:31:56 INFO  TestMoney:39 - 前置条件1:登录
+2017-12-18 17:31:56 INFO  TestMoney:45 - 登录成功！
+2017-12-18 17:31:56 INFO  TestMoney:55 - api提交订单
+2017-12-18 17:31:56 INFO  TestMoney:59 - 创建订单成功
+2017-12-18 17:31:56 INFO  TestMoney:61 - order_id: 89638
+2017-12-18 17:31:56 INFO  TestMoney:64 - 帮扶支付
+2017-12-18 17:31:56 INFO  TestMoney:69 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-18 17:31:56 INFO  TestMoney:70 - 提交成功等待排队
+2017-12-18 17:32:39 INFO  TestMoney:30 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:32:39 INFO  TestMoney:41 - 前置条件1:登录
+2017-12-18 17:32:39 INFO  TestMoney:47 - 登录成功！
+2017-12-18 17:32:39 INFO  TestMoney:57 - api提交订单
+2017-12-18 17:32:39 INFO  TestMoney:61 - 创建订单成功
+2017-12-18 17:32:39 INFO  TestMoney:63 - order_id: 89639
+2017-12-18 17:32:39 INFO  TestMoney:66 - 帮扶支付
+2017-12-18 17:32:39 INFO  TestMoney:71 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-18 17:32:39 INFO  TestMoney:72 - 提交成功等待排队
+2017-12-18 17:35:55 INFO  TestMoney:30 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:56:20 INFO  TestMoney:45 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-18 17:56:20 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-18 17:56:20 INFO  TestMoney:55 - 登录成功！
+2017-12-18 17:56:20 INFO  TestMoney:65 - api提交订单
+2017-12-18 17:56:21 INFO  TestMoney:69 - 创建订单成功
+2017-12-18 17:56:21 INFO  TestMoney:71 - order_id: 89643
+2017-12-18 17:56:21 INFO  TestMoney:74 - 帮扶支付
+2017-12-18 17:56:21 INFO  TestMoney:79 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-18 17:56:21 INFO  TestMoney:80 - 提交成功等待排队

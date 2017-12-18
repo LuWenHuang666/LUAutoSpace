@@ -66,10 +66,10 @@ public class AddUser {
 		  String mobile = String.valueOf(15280213000L+i);
 		  Map<String, String> params = new HashMap<>();
 		  params.put("vot[name]", "帮扶人"+i);
-		  params.put("vot[province_id]", "");
-		  params.put("vot[city_id]", "");
-		  params.put("vot[district_id]", "");
-		  params.put("vot[address]", "");
+		  params.put("vot[province_id]", "1");
+		  params.put("vot[city_id]", "2");
+		  params.put("vot[district_id]", "3");
+		  params.put("vot[address]", "丰台区南苑镇警备东路6号");
 		  params.put("vot[telephone]", "");
 		  params.put("mobilephone", mobile);
 		  params.put("password", "test123456");
@@ -86,7 +86,7 @@ public class AddUser {
 		  params.put("identity", "2");
 		  String responseString = httpClientUtil.doPost(url, params);
 		  System.out.println("新增志愿者:" + mobile + "返回：" + ZSON.parseJson(responseString).getValue("//info"));
-		  //查数据库，
+		  //查数据库，返回 uid
 		  String sql1 = "SELECT id FROM member WHERE identity=2 AND `status`=2 AND mobilephone=?";
 		  List<Object> parames1 = new ArrayList<Object>();
 		  parames1.add(mobile);
