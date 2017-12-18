@@ -43,10 +43,6 @@ public class TestMoney {
 	  http = new HttpClientUtil();
 	  jdbc = new JdbcUtil();
 	  
-	  logger.info("前置条件1: 查被帮扶人帮扶余额");
-	  getMoney(6275);
-	  
-	  
 	  logger.info("前置条件1:登录");
 	  Map<String, String> params = new HashMap<String, String>();
 	  params.put("username", "15280212001");
@@ -59,10 +55,23 @@ public class TestMoney {
 
   @AfterClass
   public void afterClass() {
+	  http.closeHttpClient();
+	  
   }
   
   @Test
   public void test() {
+	  logger.info("前置条件1: 查被帮扶人帮扶余额");
+	  BigDecimal moneyBigD_bef = getMoney(6275);
+	  
+	  logger.info("前置条件2: 随机商品价格");
+	  BigDecimal price = new BigDecimal("1202.09");
+	  // UPDATE product set price='1201.99' WHERE id=2856;
+	  List<Object> params = new ArrayList<>();
+	  params.add(price);
+	  boolean update_status = jdbc.updateByPreparedStatement("UPDATE product set price=? WHERE id=2856", params);
+	  System.out.println("update_status: " + update_status);
+	  
 	  logger.info("api提交订单");
 	  Map<String, String> params_addOrder = new HashMap<>();
 	  params_addOrder.put("params", "{\"mid\":6265,\"consignee_id\":4951,\"products\":[{\"product_id\":2856,\"key\":\"2856\",\"quantity\":1}],\"remarks\":\"这个是测试\"}");
@@ -80,6 +89,10 @@ public class TestMoney {
 	  logger.info(response_volunteerPay);
 	  logger.info(ZSON.parseJson(response_volunteerPay).getValue("//info"));
 	  
+	  logger.info("验证余额");
+	  BigDecimal moneyBigD_aft = getMoney(6275);
+	  Assert.assertEquals(moneyBigD_aft, moneyBigD_bef.subtract(price));
+	  System.out.println(moneyBigD_bef.subtract(price));
 	  
   }
 }
