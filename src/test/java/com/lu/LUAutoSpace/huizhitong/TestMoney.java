@@ -46,7 +46,6 @@ public class TestMoney {
 	  logger.info("前置条件1: 查被帮扶人帮扶余额");
 	  getMoney(6275);
 	  
-	  
 	  logger.info("前置条件1:登录");
 	  Map<String, String> params = new HashMap<String, String>();
 	  params.put("username", "15280212001");
