@@ -51,7 +51,7 @@ public class JdbcUtil {
     /** 
      * 释放数据库连接 
      */  
-    public void releaseConn(){  
+    public void closeConn(){  
         if(resultSet != null){  
             try{  
                 resultSet.close();  
