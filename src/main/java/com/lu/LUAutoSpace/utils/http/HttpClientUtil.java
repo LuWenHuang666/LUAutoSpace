@@ -43,11 +43,15 @@ public class HttpClientUtil {
         // 创建连接
         httpClient = HttpClients.createDefault();
         requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).build();
-        //requestConfig = RequestConfig.custom().setSocketTimeout(20000).setConnectTimeout(20000).setProxy(new HttpHost("127.0.0.1", 8888)).build();
+        
         
 	}
 	
-	//使用代理 
+	
+	/** 使用代理 
+	 * @param host
+	 * @param post
+	 */
 	public void setProxy(String host, int post) {
 		requestConfig = RequestConfig.copy(requestConfig).setProxy(new HttpHost(host, post)).build();
 	}

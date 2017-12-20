@@ -1,25 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="1933" started-at="2017-12-18T14:32:32Z" finished-at="2017-12-18T14:32:34Z">
+=======
+  <suite name="Default suite" duration-ms="963" started-at="2017-12-20T08:28:14Z" finished-at="2017-12-20T08:28:15Z">
+>>>>>>> branch 'master' of https://github.com/LuWenHuang666/LUAutoSpace.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Default test" duration-ms="1933" started-at="2017-12-18T14:32:32Z" finished-at="2017-12-18T14:32:34Z">
       <class name="com.lu.LUAutoSpace.huizhitong.TestMoney">
         <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="beforeClass" is-config="true" duration-ms="1377" started-at="2017-12-18T22:32:32Z" finished-at="2017-12-18T22:32:33Z">
+=======
+    <test name="Default test" duration-ms="963" started-at="2017-12-20T08:28:14Z" finished-at="2017-12-20T08:28:15Z">
+      <class name="com.lu.LUAutoSpace.huizhitong.ApiAddOrder">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.ApiAddOrder@49993335]" name="beforeClass" is-config="true" duration-ms="527" started-at="2017-12-20T16:28:14Z" finished-at="2017-12-20T16:28:14Z">
+>>>>>>> branch 'master' of https://github.com/LuWenHuang666/LUAutoSpace.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
+<<<<<<< HEAD
         <test-method status="PASS" signature="test()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="test" duration-ms="499" started-at="2017-12-18T22:32:33Z" finished-at="2017-12-18T22:32:34Z">
+=======
+        <test-method status="PASS" signature="addOrder(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lu.LUAutoSpace.huizhitong.ApiAddOrder@49993335]" name="addOrder" duration-ms="251" started-at="2017-12-20T16:28:14Z" data-provider="addOrder_Data" finished-at="2017-12-20T16:28:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2855]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[测试正常提交订单]]>
+              </value>
+            </param>
+          </params>
+>>>>>>> branch 'master' of https://github.com/LuWenHuang666/LUAutoSpace.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- test -->
         <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="afterClass" is-config="true" duration-ms="4" started-at="2017-12-18T22:32:34Z" finished-at="2017-12-18T22:32:34Z">
+=======
+        </test-method> <!-- addOrder -->
+        <test-method status="PASS" signature="addOrder(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lu.LUAutoSpace.huizhitong.ApiAddOrder@49993335]" name="addOrder" duration-ms="45" started-at="2017-12-20T16:28:14Z" data-provider="addOrder_Data" finished-at="2017-12-20T16:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2839]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1010]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[测试购买-商品删除]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOrder -->
+        <test-method status="PASS" signature="addOrder(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lu.LUAutoSpace.huizhitong.ApiAddOrder@49993335]" name="addOrder" duration-ms="34" started-at="2017-12-20T16:28:15Z" data-provider="addOrder_Data" finished-at="2017-12-20T16:28:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6265]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2543]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1011]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[测试购买-库存为0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOrder -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.ApiAddOrder@49993335]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-12-20T16:28:15Z" finished-at="2017-12-20T16:28:15Z">
+>>>>>>> branch 'master' of https://github.com/LuWenHuang666/LUAutoSpace.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.lu.LUAutoSpace.huizhitong.TestMoney -->
+      </class> <!-- com.lu.LUAutoSpace.huizhitong.ApiAddOrder -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

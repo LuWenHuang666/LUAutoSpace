@@ -4256,69 +4256,296 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 2017-12-18 17:56:21 INFO  TestMoney:74 - 帮扶支付
 2017-12-18 17:56:21 INFO  TestMoney:79 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
 2017-12-18 17:56:21 INFO  TestMoney:80 - 提交成功等待排队
-2017-12-18 22:18:30 INFO  TestMoney:46 - 前置条件1:登录
-2017-12-18 22:18:30 INFO  TestMoney:52 - 登录成功！
-2017-12-18 22:18:30 INFO  TestMoney:64 - 前置条件1: 查被帮扶人帮扶余额
-2017-12-18 22:18:30 INFO  TestMoney:67 - 前置条件2: 随机商品价格
-2017-12-18 22:18:30 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1200.99]执行结果：true
-2017-12-18 22:18:30 INFO  TestMoney:75 - api提交订单
-2017-12-18 22:18:30 INFO  TestMoney:79 - 创建订单成功
-2017-12-18 22:18:30 INFO  TestMoney:81 - order_id: 89645
-2017-12-18 22:18:30 INFO  TestMoney:84 - 帮扶支付
-2017-12-18 22:18:31 INFO  TestMoney:89 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
-2017-12-18 22:18:31 INFO  TestMoney:90 - 提交成功等待排队
-2017-12-18 22:18:40 INFO  TestMoney:46 - 前置条件1:登录
-2017-12-18 22:18:41 INFO  TestMoney:52 - 登录成功！
-2017-12-18 22:18:41 INFO  TestMoney:64 - 前置条件1: 查被帮扶人帮扶余额
-2017-12-18 22:18:41 INFO  TestMoney:67 - 前置条件2: 随机商品价格
-2017-12-18 22:18:41 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1201.99]执行结果：true
-2017-12-18 22:18:41 INFO  TestMoney:75 - api提交订单
-2017-12-18 22:18:41 INFO  TestMoney:79 - 创建订单成功
-2017-12-18 22:18:41 INFO  TestMoney:81 - order_id: 89646
-2017-12-18 22:18:41 INFO  TestMoney:84 - 帮扶支付
-2017-12-18 22:18:41 INFO  TestMoney:89 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
-2017-12-18 22:18:41 INFO  TestMoney:90 - 提交成功等待排队
-2017-12-18 22:20:24 INFO  TestMoney:46 - 前置条件1:登录
-2017-12-18 22:20:24 INFO  TestMoney:52 - 登录成功！
-2017-12-18 22:20:24 INFO  TestMoney:64 - 前置条件1: 查被帮扶人帮扶余额
-2017-12-18 22:20:25 INFO  TestMoney:67 - 前置条件2: 随机商品价格
-2017-12-18 22:20:25 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1202.99]执行结果：true
-2017-12-18 22:20:25 INFO  TestMoney:75 - api提交订单
-2017-12-18 22:20:25 INFO  TestMoney:79 - 创建订单成功
-2017-12-18 22:20:25 INFO  TestMoney:81 - order_id: 89647
-2017-12-18 22:20:25 INFO  TestMoney:84 - 帮扶支付
-2017-12-18 22:20:25 INFO  TestMoney:89 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
-2017-12-18 22:20:25 INFO  TestMoney:90 - 提交成功等待排队
-2017-12-18 22:23:17 INFO  TestMoney:46 - 前置条件1:登录
-2017-12-18 22:23:17 INFO  TestMoney:52 - 登录成功！
-2017-12-18 22:23:17 INFO  TestMoney:64 - 前置条件1: 查被帮扶人帮扶余额
-2017-12-18 22:23:17 INFO  TestMoney:67 - 前置条件2: 随机商品价格
-2017-12-18 22:23:17 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1202.09]执行结果：true
-2017-12-18 22:23:17 INFO  TestMoney:75 - api提交订单
-2017-12-18 22:23:18 INFO  TestMoney:79 - 创建订单成功
-2017-12-18 22:23:18 INFO  TestMoney:81 - order_id: 89648
-2017-12-18 22:23:18 INFO  TestMoney:84 - 帮扶支付
-2017-12-18 22:23:18 INFO  TestMoney:89 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
-2017-12-18 22:23:18 INFO  TestMoney:90 - 提交成功等待排队
-2017-12-18 22:30:40 INFO  TestMoney:46 - 前置条件1:登录
-2017-12-18 22:30:40 INFO  TestMoney:52 - 登录成功！
-2017-12-18 22:30:40 INFO  TestMoney:64 - 前置条件1: 查被帮扶人帮扶余额
-2017-12-18 22:30:40 INFO  TestMoney:67 - 前置条件2: 随机商品价格
-2017-12-18 22:30:40 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1202.09]执行结果：true
-2017-12-18 22:30:40 INFO  TestMoney:75 - api提交订单
-2017-12-18 22:30:40 INFO  TestMoney:79 - 创建订单成功
-2017-12-18 22:30:40 INFO  TestMoney:81 - order_id: 89649
-2017-12-18 22:30:40 INFO  TestMoney:84 - 帮扶支付
-2017-12-18 22:30:40 INFO  TestMoney:89 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
-2017-12-18 22:30:40 INFO  TestMoney:90 - 提交成功等待排队
-2017-12-18 22:32:33 INFO  TestMoney:46 - 前置条件1:登录
-2017-12-18 22:32:33 INFO  TestMoney:52 - 登录成功！
-2017-12-18 22:32:33 INFO  TestMoney:64 - 前置条件1: 查被帮扶人帮扶余额
-2017-12-18 22:32:33 INFO  TestMoney:67 - 前置条件2: 随机商品价格
-2017-12-18 22:32:33 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1202.09]执行结果：true
-2017-12-18 22:32:33 INFO  TestMoney:75 - api提交订单
-2017-12-18 22:32:34 INFO  TestMoney:79 - 创建订单成功
-2017-12-18 22:32:34 INFO  TestMoney:81 - order_id: 89650
-2017-12-18 22:32:34 INFO  TestMoney:84 - 帮扶支付
-2017-12-18 22:32:34 INFO  TestMoney:89 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
-2017-12-18 22:32:34 INFO  TestMoney:90 - 提交成功等待排队
+2017-12-19 09:33:30 INFO  TestMoney:48 - 前置条件1:登录
+2017-12-19 09:33:30 INFO  TestMoney:54 - 登录成功！
+2017-12-19 09:33:30 INFO  TestMoney:67 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 09:33:30 INFO  TestMoney:70 - 前置条件2: 随机商品价格
+2017-12-19 09:33:30 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.58]执行结果：true
+2017-12-19 09:33:30 INFO  TestMoney:78 - api提交订单
+2017-12-19 09:33:30 INFO  TestMoney:82 - 创建订单成功
+2017-12-19 09:33:30 INFO  TestMoney:84 - order_id: 89657
+2017-12-19 09:33:30 INFO  TestMoney:87 - 帮扶支付
+2017-12-19 09:33:30 INFO  TestMoney:92 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 09:33:30 INFO  TestMoney:93 - 提交成功等待排队
+2017-12-19 09:33:30 INFO  TestMoney:95 - 验证余额
+2017-12-19 10:09:37 INFO  TestMoney:48 - 前置条件1:登录
+2017-12-19 10:09:37 INFO  TestMoney:54 - 登录成功！
+2017-12-19 10:09:37 INFO  TestMoney:74 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 11:39:44 INFO  TestMoney:48 - 前置条件1:登录
+2017-12-19 11:39:44 INFO  TestMoney:54 - 登录成功！
+2017-12-19 11:39:44 INFO  TestMoney:73 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 11:47:37 INFO  TestMoney:48 - 前置条件1:登录
+2017-12-19 11:47:37 INFO  TestMoney:54 - 登录成功！
+2017-12-19 11:47:37 INFO  TestMoney:73 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 11:47:37 INFO  TestMoney:76 - 前置条件2: 随机商品价格
+2017-12-19 11:47:37 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.63]执行结果：true
+2017-12-19 11:47:37 INFO  TestMoney:84 - api提交订单
+2017-12-19 11:47:37 INFO  TestMoney:88 - 创建订单成功
+2017-12-19 11:47:37 INFO  TestMoney:90 - order_id: 89661
+2017-12-19 11:47:37 INFO  TestMoney:93 - 帮扶支付
+2017-12-19 11:47:37 INFO  TestMoney:98 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 11:47:37 INFO  TestMoney:99 - 提交成功等待排队
+2017-12-19 11:47:37 INFO  TestMoney:101 - 验证余额
+2017-12-19 11:54:27 INFO  TestMoney:48 - 前置条件1:登录
+2017-12-19 11:54:27 INFO  TestMoney:54 - 登录成功！
+2017-12-19 11:54:27 INFO  TestMoney:73 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 11:54:27 INFO  TestMoney:76 - 前置条件2: 随机商品价格
+2017-12-19 11:54:27 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.10]执行结果：true
+2017-12-19 11:54:27 INFO  TestMoney:84 - api提交订单
+2017-12-19 11:54:28 INFO  TestMoney:88 - 创建订单成功
+2017-12-19 11:54:28 INFO  TestMoney:91 - order_id: 89663 ordernum: 20171219115427499581
+2017-12-19 11:54:28 INFO  TestMoney:94 - 帮扶支付
+2017-12-19 11:54:28 INFO  TestMoney:99 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 11:54:28 INFO  TestMoney:100 - 提交成功等待排队
+2017-12-19 11:54:28 INFO  TestMoney:102 - 验证余额
+2017-12-19 14:12:09 INFO  TestMoney:48 - 前置条件1:登录
+2017-12-19 14:12:10 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:12:10 INFO  TestMoney:75 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 14:12:10 INFO  TestMoney:78 - 前置条件2: 随机商品价格
+2017-12-19 14:12:10 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.07]执行结果：true
+2017-12-19 14:12:10 INFO  TestMoney:86 - api提交订单
+2017-12-19 14:12:10 INFO  TestMoney:90 - 创建订单成功
+2017-12-19 14:12:10 INFO  TestMoney:93 - order_id: 89665 ordernum: 20171219021209540594
+2017-12-19 14:12:10 INFO  TestMoney:96 - 帮扶支付
+2017-12-19 14:12:10 INFO  TestMoney:101 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 14:12:10 INFO  TestMoney:102 - 提交成功等待排队
+2017-12-19 14:12:10 INFO  TestMoney:104 - 验证余额
+2017-12-19 14:17:36 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:17:36 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:18:18 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:18:18 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:18:53 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:18:54 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:20:26 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:20:26 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:21:33 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:21:33 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:21:57 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:21:58 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:23:27 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:23:27 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:23:27 INFO  TestMoney:56 - 1
+2017-12-19 14:24:03 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:24:03 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:24:46 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:24:46 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:24:46 INFO  TestMoney:56 - 1
+2017-12-19 14:25:53 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:25:53 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:25:53 INFO  TestMoney:56 - 登录成功！
+2017-12-19 14:25:53 INFO  TestMoney:79 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 14:25:53 INFO  TestMoney:82 - 前置条件2: 随机商品价格
+2017-12-19 14:25:53 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.06]执行结果：true
+2017-12-19 14:25:53 INFO  TestMoney:88 - 价格更新为：1000.06 update_status: true
+2017-12-19 14:25:53 INFO  TestMoney:90 - api提交订单
+2017-12-19 14:25:53 INFO  TestMoney:94 - 创建订单成功
+2017-12-19 14:25:53 INFO  TestMoney:97 - order_id: 89666 ordernum: 20171219022553002295
+2017-12-19 14:25:53 INFO  TestMoney:100 - 帮扶支付
+2017-12-19 14:25:53 INFO  TestMoney:105 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 14:25:53 INFO  TestMoney:106 - 提交成功等待排队
+2017-12-19 14:25:53 INFO  TestMoney:108 - 验证余额
+2017-12-19 14:27:53 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:27:53 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:27:53 INFO  TestMoney:56 - 1
+2017-12-19 14:27:53 INFO  TestMoney:79 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 14:27:53 INFO  TestMoney:82 - 前置条件2: 随机商品价格
+2017-12-19 14:27:53 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.07]执行结果：true
+2017-12-19 14:27:53 INFO  TestMoney:88 - 价格更新为：1000.07 update_status: true
+2017-12-19 14:27:53 INFO  TestMoney:90 - api提交订单
+2017-12-19 14:27:53 INFO  TestMoney:94 - 创建订单成功
+2017-12-19 14:27:53 INFO  TestMoney:97 - order_id: 89668 ordernum: 20171219022752977185
+2017-12-19 14:27:53 INFO  TestMoney:100 - 帮扶支付
+2017-12-19 14:27:54 INFO  TestMoney:105 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 14:27:54 INFO  TestMoney:106 - 提交成功等待排队
+2017-12-19 14:27:54 INFO  TestMoney:108 - 验证余额
+2017-12-19 14:28:45 INFO  TestMoney:49 - 前置条件1:登录
+2017-12-19 14:28:45 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:28:45 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 14:28:45 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-19 14:28:45 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.95]执行结果：true
+2017-12-19 14:28:45 INFO  TestMoney:86 - 价格更新为：1000.95 update_status: true
+2017-12-19 14:28:45 INFO  TestMoney:88 - api提交订单
+2017-12-19 14:28:45 INFO  TestMoney:92 - 创建订单成功
+2017-12-19 14:28:45 INFO  TestMoney:95 - order_id: 89669 ordernum: 20171219022844840960
+2017-12-19 14:28:45 INFO  TestMoney:98 - 帮扶支付
+2017-12-19 14:28:45 INFO  TestMoney:103 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 14:28:45 INFO  TestMoney:104 - 提交成功等待排队
+2017-12-19 14:28:45 INFO  TestMoney:106 - 验证余额
+2017-12-19 14:34:17 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-19 14:34:17 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:34:17 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 14:34:17 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-19 14:34:17 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1000.94]执行结果：true
+2017-12-19 14:34:17 ERROR TestMoney:86 - 价格更新为：1000.94 update_status: true
+2017-12-19 14:34:17 INFO  TestMoney:88 - api提交订单
+2017-12-19 14:34:17 INFO  TestMoney:92 - 创建订单成功
+2017-12-19 14:34:17 INFO  TestMoney:95 - order_id: 89670 ordernum: 20171219023416975935
+2017-12-19 14:34:17 INFO  TestMoney:98 - 帮扶支付
+2017-12-19 14:34:18 INFO  TestMoney:103 - {"info":"\u63d0\u4ea4\u6210\u529f\u7b49\u5f85\u6392\u961f","status":1,"url":"\/Mobile\/Order\/index.html"}
+2017-12-19 14:34:18 INFO  TestMoney:104 - 提交成功等待排队
+2017-12-19 14:34:18 INFO  TestMoney:106 - 验证余额
+2017-12-19 14:57:37 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-19 14:57:38 INFO  TestMoney:54 - 登录成功！
+2017-12-19 14:57:38 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 14:57:38 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-19 14:57:38 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1044.00]执行结果：true
+2017-12-19 14:57:38 ERROR TestMoney:86 - 价格更新为：1044.00 update_status: true
+2017-12-19 14:57:38 INFO  TestMoney:88 - api提交订单
+2017-12-19 14:57:38 INFO  TestMoney:92 - 创建订单成功
+2017-12-19 14:57:38 INFO  TestMoney:95 - order_id: 89675 ordernum: 20171219025737537518
+2017-12-19 14:57:38 INFO  TestMoney:98 - 帮扶支付
+2017-12-19 14:57:38 INFO  TestMoney:103 - 提交成功等待排队
+2017-12-19 14:57:38 INFO  TestMoney:105 - 验证余额
+2017-12-19 15:14:36 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-19 15:14:36 INFO  TestMoney:54 - 登录成功！
+2017-12-19 15:14:36 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 15:14:36 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-19 15:14:36 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1002.00]执行结果：true
+2017-12-19 15:14:36 ERROR TestMoney:86 - 价格更新为：1002.00 update_status: true
+2017-12-19 15:14:36 INFO  TestMoney:88 - api提交订单
+2017-12-19 15:14:37 INFO  TestMoney:92 - 创建订单成功
+2017-12-19 15:14:37 INFO  TestMoney:95 - order_id: 89678 ordernum: 20171219031436266729
+2017-12-19 15:14:37 INFO  TestMoney:97 - 支付方式确认为：帮扶  volunteer_mobile
+2017-12-19 15:14:37 INFO  TestMoney:104 - 帮扶支付
+2017-12-19 15:14:37 INFO  TestMoney:109 - 提交成功等待排队
+2017-12-19 15:14:37 INFO  TestMoney:111 - 验证余额
+2017-12-19 15:36:04 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-19 15:36:04 INFO  TestMoney:54 - 登录成功！
+2017-12-19 15:36:04 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-19 15:36:04 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-19 15:36:05 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1029.00]执行结果：true
+2017-12-19 15:36:05 ERROR TestMoney:86 - 价格更新为：1029.00 update_status: true
+2017-12-19 15:36:05 INFO  TestMoney:88 - api提交订单
+2017-12-19 15:36:05 INFO  TestMoney:92 - 创建订单成功
+2017-12-19 15:36:05 INFO  TestMoney:95 - order_id: 89679 ordernum: 20171219033604300095
+2017-12-19 15:36:05 INFO  TestMoney:97 - 支付方式确认为：帮扶  volunteer_mobile
+2017-12-19 15:36:05 INFO  TestMoney:103 - 帮扶支付
+2017-12-19 15:36:05 INFO  TestMoney:108 - 您的当月帮扶限额已超,不能继续帮扶
+2017-12-19 15:36:05 INFO  TestMoney:110 - 验证余额
+2017-12-20 09:41:57 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-20 09:41:57 INFO  TestMoney:54 - 登录成功！
+2017-12-20 09:41:57 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-20 09:41:57 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-20 09:41:57 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1047.00]执行结果：false
+2017-12-20 09:41:57 ERROR TestMoney:86 - 价格更新为：1047.00 update_status: false
+2017-12-20 09:41:57 INFO  TestMoney:88 - api提交订单
+2017-12-20 09:41:57 INFO  TestMoney:92 - 该产品不存在
+2017-12-20 09:48:07 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-20 09:48:07 INFO  TestMoney:54 - 登录成功！
+2017-12-20 09:48:07 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-20 09:48:07 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-20 09:48:07 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2856参数：[1039.00]执行结果：false
+2017-12-20 09:48:07 ERROR TestMoney:86 - 价格更新为：1039.00 update_status: false
+2017-12-20 09:48:07 INFO  TestMoney:88 - api提交订单
+2017-12-20 09:48:07 INFO  TestMoney:92 - 库存不足
+2017-12-20 09:48:54 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-20 09:48:54 INFO  TestMoney:54 - 登录成功！
+2017-12-20 09:48:54 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-20 09:48:54 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-20 09:48:54 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2114参数：[1033.00]执行结果：true
+2017-12-20 09:48:54 ERROR TestMoney:86 - 价格更新为：1033.00 update_status: true
+2017-12-20 09:48:54 INFO  TestMoney:88 - api提交订单
+2017-12-20 09:48:54 INFO  TestMoney:92 - 库存不足
+2017-12-20 09:49:58 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-20 09:49:58 INFO  TestMoney:54 - 登录成功！
+2017-12-20 09:49:58 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-20 09:49:58 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-20 09:49:58 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2114参数：[1005.00]执行结果：true
+2017-12-20 09:49:58 ERROR TestMoney:86 - 价格更新为：1005.00 update_status: true
+2017-12-20 09:49:58 INFO  TestMoney:88 - api提交订单
+2017-12-20 09:49:59 INFO  TestMoney:92 - 创建订单成功
+2017-12-20 09:49:59 INFO  TestMoney:95 - order_id: 89688 ordernum: 20171220094958954777
+2017-12-20 09:49:59 INFO  TestMoney:97 - 支付方式确认为：帮扶  volunteer_mobile
+2017-12-20 09:49:59 INFO  TestMoney:103 - 帮扶支付
+2017-12-20 09:49:59 INFO  TestMoney:108 - 您的当月帮扶限额已超,不能继续帮扶
+2017-12-20 09:49:59 INFO  TestMoney:110 - 验证余额
+2017-12-20 10:05:26 INFO  TestMoney:49 - 前置条件0:登录
+2017-12-20 10:05:26 INFO  TestMoney:54 - 登录成功！
+2017-12-20 10:05:26 INFO  TestMoney:77 - 前置条件1: 查被帮扶人帮扶余额
+2017-12-20 10:05:26 INFO  TestMoney:80 - 前置条件2: 随机商品价格
+2017-12-20 10:05:26 INFO  JdbcUtil:103 - UPDATE product set price=? WHERE id=2114参数：[1036.00]执行结果：true
+2017-12-20 10:05:26 ERROR TestMoney:86 - 价格更新为：1036.00 update_status: true
+2017-12-20 10:05:26 INFO  TestMoney:88 - api提交订单
+2017-12-20 10:05:27 INFO  TestMoney:92 - 该产品已被下架
+2017-12-20 14:15:51 INFO  TestMoney:31 - api提交订单
+2017-12-20 14:15:51 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:40:37 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:40:37 INFO  TestMoney:34 - 该产品已被下架
+2017-12-20 14:40:37 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:40:37 INFO  TestMoney:34 - 该产品已被下架
+2017-12-20 14:43:10 INFO  TestMoney:33 - api提交订单
+2017-12-20 14:43:10 INFO  TestMoney:37 - 该产品已被下架
+2017-12-20 14:43:10 INFO  TestMoney:33 - api提交订单
+2017-12-20 14:43:10 INFO  TestMoney:37 - 该产品已被下架
+2017-12-20 14:44:15 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:44:15 INFO  TestMoney:34 - 该产品已被下架
+2017-12-20 14:44:15 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:44:16 INFO  TestMoney:34 - 该产品已被下架
+2017-12-20 14:46:30 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:46:30 INFO  TestMoney:34 - com.zf.zson.result.impl.ZsonResultImpl@4e268090
+2017-12-20 14:46:30 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:46:30 INFO  TestMoney:34 - com.zf.zson.result.impl.ZsonResultImpl@29647f75
+2017-12-20 14:47:25 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:47:25 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 14:47:25 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:47:25 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:47:26 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 14:47:26 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:49:10 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:49:10 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 14:49:10 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:49:10 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:49:10 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 14:49:10 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:49:44 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:49:44 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 14:49:44 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:49:44 INFO  TestMoney:36 - 1010
+2017-12-20 14:49:44 INFO  TestMoney:30 - api提交订单
+2017-12-20 14:49:44 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 14:49:44 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 14:49:44 INFO  TestMoney:36 - 1010
+2017-12-20 15:17:33 INFO  TestMoney:30 - api提交订单
+2017-12-20 15:17:33 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 15:17:33 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 15:17:33 INFO  TestMoney:36 - 1010
+2017-12-20 15:17:33 INFO  TestMoney:30 - api提交订单
+2017-12-20 15:17:33 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 15:17:33 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 15:17:33 INFO  TestMoney:36 - 1010
+2017-12-20 15:24:14 ERROR JdbcUtil:182 - 23423423423423432423
+2017-12-20 15:24:48 ERROR JdbcUtil:182 - 23423423423423432423
+2017-12-20 15:28:26 ERROR JdbcUtil:256 - 23423423423423432423
+2017-12-20 15:50:29 INFO  TestMoney:30 - api提交订单
+2017-12-20 15:50:29 INFO  TestMoney:34 - {msg=\u521b\u5efa\u8ba2\u5355\u6210\u529f, status=1, data={ordernum=20171220035028993752, order_id=89699}}
+2017-12-20 15:50:29 INFO  TestMoney:35 - 创建订单成功
+2017-12-20 15:50:29 INFO  TestMoney:36 - 1
+2017-12-20 15:50:29 INFO  TestMoney:39 - order_id: 89699 ordernum: 20171220035028993752
+2017-12-20 15:50:29 INFO  TestMoney:30 - api提交订单
+2017-12-20 15:50:29 INFO  TestMoney:34 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 15:50:29 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 15:50:29 INFO  TestMoney:36 - 1010
+2017-12-20 15:50:29 INFO  TestMoney:30 - api提交订单
+2017-12-20 15:50:29 INFO  TestMoney:34 - {msg=\u5e93\u5b58\u4e0d\u8db3, status=1011, data=null}
+2017-12-20 15:50:29 INFO  TestMoney:35 - 库存不足
+2017-12-20 15:50:29 INFO  TestMoney:36 - 1011
+2017-12-20 16:08:54 INFO  TestMoney:31 - api提交订单
+2017-12-20 16:08:54 INFO  TestMoney:35 - {msg=\u521b\u5efa\u8ba2\u5355\u6210\u529f, status=1, data={ordernum=20171220040854257953, order_id=89700}}
+2017-12-20 16:08:54 INFO  TestMoney:36 - 创建订单成功
+2017-12-20 16:08:54 INFO  TestMoney:37 - 1
+2017-12-20 16:08:54 INFO  TestMoney:43 - order_id: 89700 ordernum: 20171220040854257953
+2017-12-20 16:08:54 INFO  TestMoney:31 - api提交订单
+2017-12-20 16:08:54 INFO  TestMoney:35 - {msg=\u8be5\u4ea7\u54c1\u5df2\u88ab\u4e0b\u67b6, status=1010, data=null}
+2017-12-20 16:08:54 INFO  TestMoney:36 - 该产品已被下架
+2017-12-20 16:08:54 INFO  TestMoney:37 - 1010
+2017-12-20 16:08:54 INFO  TestMoney:31 - api提交订单
+2017-12-20 16:08:54 INFO  TestMoney:35 - {msg=\u5e93\u5b58\u4e0d\u8db3, status=1011, data=null}
+2017-12-20 16:08:54 INFO  TestMoney:36 - 库存不足
+2017-12-20 16:08:54 INFO  TestMoney:37 - 1011
+2017-12-20 16:28:14 INFO  TestMoney:31 - api提交订单 : 测试正常提交订单
+2017-12-20 16:28:14 INFO  TestMoney:35 - 创建订单成功
+2017-12-20 16:28:14 INFO  TestMoney:41 - order_id: 89701 ordernum: 20171220042814631896
+2017-12-20 16:28:14 INFO  TestMoney:31 - api提交订单 : 测试购买-商品删除
+2017-12-20 16:28:15 INFO  TestMoney:35 - 该产品已被下架
+2017-12-20 16:28:15 INFO  TestMoney:31 - api提交订单 : 测试购买-库存为0
+2017-12-20 16:28:15 INFO  TestMoney:35 - 库存不足
