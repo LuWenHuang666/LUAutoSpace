@@ -67,7 +67,7 @@ public class ApiAddOrder {
 		return new Object[][] {
 			{"6265",product_id1,"1","测试正常提交订单"},
 			{"6265",product_id2,"1010","测试购买-商品删除"},
-			{"6265",product_id3,"1011","测试购买-库存为0"},
+			{"6265",product_id3,"1011","测试购买-库存为0"}
 		};
 		
 		
