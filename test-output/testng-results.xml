@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1238" started-at="2017-12-18T09:56:20Z" finished-at="2017-12-18T09:56:21Z">
+  <suite name="Default suite" duration-ms="1933" started-at="2017-12-18T14:32:32Z" finished-at="2017-12-18T14:32:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1238" started-at="2017-12-18T09:56:20Z" finished-at="2017-12-18T09:56:21Z">
+    <test name="Default test" duration-ms="1933" started-at="2017-12-18T14:32:32Z" finished-at="2017-12-18T14:32:34Z">
       <class name="com.lu.LUAutoSpace.huizhitong.TestMoney">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="beforeClass" is-config="true" duration-ms="780" started-at="2017-12-18T17:56:20Z" finished-at="2017-12-18T17:56:20Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="beforeClass" is-config="true" duration-ms="1377" started-at="2017-12-18T22:32:32Z" finished-at="2017-12-18T22:32:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="test" duration-ms="439" started-at="2017-12-18T17:56:20Z" finished-at="2017-12-18T17:56:21Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="test" duration-ms="499" started-at="2017-12-18T22:32:33Z" finished-at="2017-12-18T22:32:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-18T17:56:21Z" finished-at="2017-12-18T17:56:21Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.lu.LUAutoSpace.huizhitong.TestMoney@6adede5]" name="afterClass" is-config="true" duration-ms="4" started-at="2017-12-18T22:32:34Z" finished-at="2017-12-18T22:32:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
