@@ -70,7 +70,7 @@ public class TestMoney {
 	  String mid = "6265";            //被帮扶人 user_id
 	  String volunteer_id = "4764";  //帮扶人ID
 	  String volunteer_user_id = "6275";  //帮扶人 user_id
-	  String product_id = "2856";
+	  String product_id = "2114";
 	  String consignee_id = "4951";
 	  
 	  
@@ -82,7 +82,7 @@ public class TestMoney {
 	  //BigDecimal price = new BigDecimal("1202.09");
 	  List<Object> params = new ArrayList<>();
 	  params.add(price);
-	  boolean update_status = jdbc.updateByPreparedStatement("UPDATE product set price=? WHERE id=2856", params);
+	  boolean update_status = jdbc.updateByPreparedStatement("UPDATE product set price=? WHERE id="+product_id, params);
 	  logger.error("价格更新为：" + price +" update_status: " + update_status);
 	  
 	  logger.info("api提交订单");

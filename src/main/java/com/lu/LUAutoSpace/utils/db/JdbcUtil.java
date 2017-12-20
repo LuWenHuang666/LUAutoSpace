@@ -178,6 +178,80 @@ public class JdbcUtil {
         return list;  
     }  
     
+    
+    /** 
+     * 查询单条记录 
+     * @param sql 
+     * @return 
+     * @throws SQLException 
+     */  
+    public Map<String, Object> findSimpleResult(String sql) {  
+        Map<String, Object> map = new HashMap<String, Object>();  
+        int index  = 1;  
+        try {
+			pstmt = connection.prepareStatement(sql);  
+/*			if(params != null && !params.isEmpty()){  
+			    for(int i=0; i<params.size(); i++){  
+			        pstmt.setObject(index++, params.get(i));  
+			    }  
+			} */ 
+			resultSet = pstmt.executeQuery();//返回查询结果  
+			ResultSetMetaData metaData = resultSet.getMetaData();  
+			int col_len = metaData.getColumnCount();  
+			while(resultSet.next()){  
+			    for(int i=0; i<col_len; i++ ){  
+			        String cols_name = metaData.getColumnName(i+1);  
+			        Object cols_value = resultSet.getObject(cols_name);  
+			        if(cols_value == null){  
+			            cols_value = "";  
+			        }  
+			        map.put(cols_name, cols_value);  
+			    }  
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}  
+        return map;  
+    } 
+    
+
+    /**查询多条记录 
+     * @param sql 
+     * @return 
+     * @throws SQLException 
+     */  
+    public List<Map<String, Object>> findModeResult(String sql) {  
+        List<Map<String, Object>> list = new ArrayList<Map<String, Object>>();  
+        //int index = 1;  
+        try {
+			pstmt = connection.prepareStatement(sql);  
+/*			if(params != null && !params.isEmpty()){  
+			    for(int i = 0; i<params.size(); i++){  
+			        pstmt.setObject(index++, params.get(i));  
+			    }  
+			} */ 
+			resultSet = pstmt.executeQuery();  
+			ResultSetMetaData metaData = resultSet.getMetaData();  
+			int cols_len = metaData.getColumnCount();  
+			while(resultSet.next()){  
+			    Map<String, Object> map = new HashMap<String, Object>();  
+			    for(int i=0; i<cols_len; i++){  
+			        String cols_name = metaData.getColumnName(i+1);  
+			        Object cols_value = resultSet.getObject(cols_name);  
+			        if(cols_value == null){  
+			            cols_value = "";  
+			        }  
+			        map.put(cols_name, cols_value);  
+			    }  
+			    list.add(map);  
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  
+        return list;  
+    }  
+    
 	public static void main(String[] args) {
 		logger.error("23423423423423432423");
 		JdbcUtil jdbcUtil = new JdbcUtil();
